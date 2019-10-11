@@ -9,12 +9,12 @@
     display: grid;
     border-style: solid;
     border-color: rgb(199, 61, 61);
-    border-width: 4px;
+    border-width: 5 px;
     align-items: center;
     justify-content: center;
-    border-radius: 35px;
+    border-radius: 15px;
 }
 body
 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(125, 201, 26);
 }

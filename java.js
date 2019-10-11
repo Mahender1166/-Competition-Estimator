@@ -1,4 +1,4 @@
-const count = (x, y) => { return x + y }
+const count = (x, y) => { return (x / y) }
 
 const adder = new Vue({
   el: '#postion',
