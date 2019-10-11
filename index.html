@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>
+        Template
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Mahender</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Calculate <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <!-- <form class="form-inline my-2 my-lg-0">
+                    facebook
+                    <a href="https://www.facebook.com/rethima.polam"><img src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-facebook-icon-png-image_3547781.jpg" width="30"
+                        height="30"></a>
+                <a href="https://www.linkedin.com/in/rethimareddypolam/"><img src="image/linkedin.png"
+                        width="30" height="30"></a>
+                <a href="https://github.com/Rethima-Reddy"><img src="image/github.png" width="30"
+                        height="30"></a>
+                </form> -->
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- first half -->
+            <div class="col-lg-4"></div>
+            <!-- second half  -->
+            <div class="col-lg-4">
+                <br>
+                <br>
+                <br>
+                <div class="div1">
+                    <article id="abc">
+                        <h1>
+                            Calculation
+                        </h1>
+                        <fieldset>
+                            <label>Value1 : </label>
+                            <input id="v1" type="number" v-model="v1"> <br>
+                        </fieldset>
+                        <hr>
+                        <fieldset>
+                            <label>Value2 : </label>
+                            <input id="v2" type="number" v-model="v2"> <br>
+                        </fieldset>
+                        <hr>
+                        <fieldset>
+                            <button id="cal" value="Calculate">Submit</button>
+                        </fieldset>
+                        <hr>
+                        calculated value is : {{result}}
+                    </article>
+                </div>
+            </div>
+            <!-- third half  -->
+            <div class="col-lg-4"></div>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <b>Follow me: </b>
+        <a href="https://www.facebook.com/mahender1414"><img src="image/facebook.png" width="30" height="30"></a>
+        <a href="https://www.instagram.com/mr_reddy1166/"><img src="image/linkedin.png" width="30" height="30"></a>
+        <a href="https://github.com/Mahender1166"><img src="image/github.png" width="30" height="30"></a>
+
+
+    </footer>
+
+    <!-- Vue.js must be added before our custom code from https://cdnjs.com/libraries/vue -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="java.js"></script>
+
+</body>
+
+</html>
